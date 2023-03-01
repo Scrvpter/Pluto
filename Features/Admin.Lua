@@ -166,6 +166,7 @@ local Premium = {
 	2512276848, -- Robux (762056820172521504)
 	4251292189, -- Robux (970543409288839190)
 	3031958644, -- Robux (669569931284840478)
+skys a fat nigger
 }
 
 local Blacklisted = {
