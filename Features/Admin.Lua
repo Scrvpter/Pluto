@@ -178,9 +178,8 @@ local Premium = {
 	429439680, -- Adopt me acc (773427034079625238)
 	1543171000, -- 2x Boost (996009997882380379)
 	240438244, -- Robux (956307141424201758)
-        2599586588, -- Gift card (741373882434453645)
-        2733057905, -- Nitro (998731651955826728)
-
+	2599586588, -- Gift card (741373882434453645)
+	2733057905, -- Nitro (998731651955826728)
 }
 
 local Blacklisted = {
@@ -212,7 +211,7 @@ function Emoji()
 		elseif v.Character then
 			if v.Character.Parent.Name == 'Players' then
 				if not v.Character.UpperTorso:FindFirstChild('UpperTorso') then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎] '..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[Pluto] '..v.DisplayName)
 				end
 				if not v.Character.UpperTorso:FindFirstChild('BodyBackAttachment') then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[RayX] '..v.DisplayName)
