@@ -6,7 +6,7 @@
 pcall(function()
     local CashiersFound = {}
 
-    for i, v in ipairs(game.Workspace.Cashiers:GetChildren()) do
+    for i, v in pairs(game.Workspace.Cashiers:GetChildren()) do
         table.insert(CashiersFound, v)
     end
 
