@@ -11,7 +11,8 @@ pcall(function()
     end
 
     CashiersFound[16]:Destroy()
-end
+    CashiersFound[17]:Destroy()
+end)
 
 --[[
     | Anti Ban
