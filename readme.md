@@ -1,4 +1,4 @@
-__**Terms and Conditions for Pluto**__
+# Terms and Conditions for Pluto
 
 > By using our services/products, you agree to the following T&C of our services and if you do not agree with any of these terms, you need not use our services/products.
 
