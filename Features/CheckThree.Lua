@@ -1,6 +1,22 @@
 --[[
-    Credits : stefanuk12
-    Modified By : juke
+    | Jewelery Store Autofarm Fix
+    | Made by Juke
+]]
+
+pcall(function()
+    local CashiersFound = {}
+
+    for i, v in ipairs(game.Workspace.Cashiers:GetChildren()) do
+        table.insert(CashiersFound, v)
+    end
+
+    CashiersFound[16]:Destroy()
+end
+
+--[[
+    | Anti Ban
+    | Credits : stefanuk12
+    | Modified By : juke
 ]]
 
 if not game:IsLoaded() then
