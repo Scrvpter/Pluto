@@ -126,7 +126,6 @@ local Premium = {
 	2272894963, -- Robux (636869320726806539)
 	718969596, -- Robux (1064052786540576848)
 	3831558378, -- Robux (1070130767969136640)
-	2452452863, -- Grek (804245361894883339)
 	2526209712, -- PayPal (699738977732657193)
 	3868842338, -- Robux (773427034079625238)
 	3175662473, -- Robux (958271628570144790)
@@ -183,13 +182,10 @@ local Premium = {
 	3994230910, -- Robux (876918184995856394)
 	4004331735, -- Robux (884130460643512321)
 	1510152650, -- Robux (849494108863201300)
+	143688102, -- Partner (166391209718317056)
 }
 
-local Blacklisted = {
-	3656041166,
-	2211015718,
-	2223055679,
-}
+local Blacklisted = {}
 
 function Emoji()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
@@ -208,7 +204,7 @@ function Emoji()
 		elseif table.find(Blacklisted, v.UserId) then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Kill This Clown')
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[Blacklisted]')
 				end
 			end
 		elseif v.Character then
