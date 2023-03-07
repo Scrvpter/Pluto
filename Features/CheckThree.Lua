@@ -10,6 +10,7 @@ pcall(function()
         table.insert(CashiersFound, v)
     end
 
+    CashiersFound[15]:Destroy()
     CashiersFound[16]:Destroy()
     CashiersFound[17]:Destroy()
 end)
