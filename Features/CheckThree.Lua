@@ -48,9 +48,9 @@ if LoadAntiBan == true then
         local Method = getnamecallmethod()
         if tostring(Method) == "PreloadAsync" and not checkcaller() then
             return
-        end    
+        end
 
-        return MetamethodHolder.AntiFlag(self, ...)    
+        return MetamethodHolder.AntiFlag(self, ...)
     end)
 
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
