@@ -1,1 +1,1 @@
-Join https://discord.gg/s7GQMd7s for the best lock
+Thank you for choosing Pluto
