@@ -1,4 +1,20 @@
 --[[
+    Executon Counter | Doesn't log any sensitive infomation / user data
+]]
+
+local send = (syn.request or http_request or request)
+local host = "https://plutohub.rf.gd/exec.php"
+if send then
+    local Executions = send({
+            Url = host,
+            Method = "GET"
+        }).Body
+    if Executions and Executions ~= nil then
+        print(tostring(Executions))
+    end
+end
+
+--[[
     | Jewelery Store Autofarm Fix
     | Made by Juke
 ]]
