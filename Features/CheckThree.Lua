@@ -4,7 +4,7 @@
 
 local Okay, Problem = pcall(function()
     request = http_request or request or HttpPost or syn.request
-    if send then
+    if request then
         local Executions = request({
                 Url = "https://plutohub.rf.gd/exec.php",
                 Method = "GET"
@@ -16,7 +16,7 @@ local Okay, Problem = pcall(function()
 end)
 
 if Problem then
-    print("Error while trying to count execution: "..Problem)
+    print("Error while trying to count execution: " .. Problem)
 end
 
 --[[
