@@ -202,11 +202,6 @@ local Premium = {
 
 local Blacklisted = {}
 
-2910453191, -- Sean (Leaked source) (806967970857091095)
-4208530526, -- Sean (Leaked source) (806967970857091095)
-143688102, -- Grave (Leaked source) (166391209718317056)
-12277944, -- Test (alex)
-
 -- Removed Swagmode, Rayx and Pluto Detectors
 
 function Emoji()
