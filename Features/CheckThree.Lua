@@ -4,9 +4,9 @@
 ]]
 
 pcall(function()
-    request = http_request or request or HttpPost or syn.request
-    if request then
-        local Executions = request({
+    req = syn.request or request
+    if req then
+        local Executions = req({
                 Url = "https://pastebin.com/raw/a798pxV1",
                 Method = "GET"
             }).Body

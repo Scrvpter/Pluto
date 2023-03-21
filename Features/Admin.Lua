@@ -206,8 +206,6 @@ local Blacklisted = {
 	4208530526,
 }
 
--- Removed Swagmode, Rayx and Pluto Detectors
-
 function Emoji()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
 		if v.UserId == 77561039 then

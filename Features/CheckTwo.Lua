@@ -1,1 +1,1 @@
-Thank you for choosing Pluto.
+Welcome to the experience of Pluto.
