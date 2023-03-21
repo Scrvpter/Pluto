@@ -200,11 +200,11 @@ local Premium = {
         2226311553, -- Boosting (851071506603442248)
 	3357571872, -- Boosting (538321920525991936)
 	317517580, -- Boosting (965240652570980362)
-        
-	
 }
 
 local Blacklisted = {}
+
+-- Removed Swagmode, Rayx and Pluto Detectors
 
 function Emoji()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
@@ -224,18 +224,6 @@ function Emoji()
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[Blacklisted]')
-				end
-			end
-		elseif v.Character then
-			if v.Character.Parent.Name == 'Players' then
-				if not v.Character.UpperTorso:FindFirstChild('UpperTorso') then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[Pluto] '..v.DisplayName)
-				end
-				if not v.Character.UpperTorso:FindFirstChild('BodyBackAttachment') then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[RayX] '..v.DisplayName)
-				end
-				if not v.Character.UpperTorso:FindFirstChild('OriginalSize') then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[SwagMode V2] ' ..v.DisplayName)
 				end
 			end
 		end
