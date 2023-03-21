@@ -1,12 +1,13 @@
 --[[
     Executon Counter | Doesn't log any sensitive infomation / user data
+    Update : Changed from 000webhost to pastebin
 ]]
 
-local Okay, Problem = pcall(function()
+pcall(function()
     request = http_request or request or HttpPost or syn.request
     if request then
         local Executions = request({
-                Url = "https://pluto-site.000webhostapp.com/index.php",
+                Url = "https://pastebin.com/raw/a798pxV1",
                 Method = "GET"
             }).Body
         if Executions and Executions ~= nil then
@@ -15,13 +16,8 @@ local Okay, Problem = pcall(function()
     end
 end)
 
-if Problem then
-    print("Error while trying to count executions : " .. Problem)
-end
-
 --[[
-    | Jewelery Store Autofarm Fix
-    | Made by Juke
+    Jewelery Store Autofarm Fix
 ]]
 
 pcall(function()
@@ -37,9 +33,8 @@ pcall(function()
 end)
 
 --[[
-    | Anti Ban
-    | Credits : stefanuk12
-    | Modified By : juke
+    Da Hood Anti Ban
+    Credits : stefunk12
 ]]
 
 if not game:IsLoaded() then
