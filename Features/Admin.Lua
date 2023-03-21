@@ -204,6 +204,9 @@ local Premium = {
 
 local Blacklisted = {}
 
+2910453191, -- Sean (Leaked source) (806967970857091095)
+4208530526, -- Sean (Leaked source) (806967970857091095)
+
 -- Removed Swagmode, Rayx and Pluto Detectors
 
 function Emoji()
