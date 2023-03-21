@@ -1,1 +1,1 @@
-Want a cool aimlock? .gg/8KPqxNq6wn
+Thank you for choosing Pluto.
