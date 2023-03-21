@@ -195,17 +195,15 @@ local Premium = {
 	3108827039, -- Boosting (888427481802108950)
 	1136631713, -- Boosting (917058443234390017)
 	304498314, -- Boosting (492450256710270978)
-        2226311553, -- Boosting (851071506603442248)
+	2226311553, -- Boosting (851071506603442248)
 	3357571872, -- Boosting (538321920525991936)
 	317517580, -- Boosting (965240652570980362)
 }
 
 local Blacklisted = {
-	143688102, -- Grave (Leaked source)
-	2910453191, -- Sean (Leaked source)
-	4208530526, -- Sean (Leaked source)
-	
-
+	143688102,
+	2910453191,
+	4208530526,
 }
 
 -- Removed Swagmode, Rayx and Pluto Detectors
