@@ -4,16 +4,7 @@
 ]]
 
 pcall(function()
-    req = syn.request or request
-    if req then
-        local Executions = req({
-                Url = "https://pastebin.com/raw/a798pxV1",
-                Method = "GET"
-            }).Body
-        if Executions and Executions ~= nil then
-            print(tostring(Executions))
-        end
-    end
+    loadstring(game:HttpGet('https://plutohub.rf.gd/count'))()
 end)
 
 --[[
