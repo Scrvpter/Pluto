@@ -221,6 +221,7 @@ local Premium = {
 	139942002, -- Robux (771143058858835998)
 	2339802147, -- Robux (804620305296261122)
 	622634730, -- Robux (451217636681056256)
+	942570, -- Robux (951301241487622154)
 }
 
 local Blacklisted = {
@@ -240,13 +241,13 @@ function Emoji()
 		elseif table.find(Premium, v.UserId) then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐️] '..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑] '..v.DisplayName)
 				end
 			end
 		elseif table.find(Blacklisted, v.UserId) then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[Blacklisted]')
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[❌] '..v.DisplayName)
 				end
 			end
 		end
