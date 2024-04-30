@@ -299,6 +299,7 @@ local Premium = {
 	924860587, -- Robux (1210072951794307073)
 	6884319169, -- Giveaway (830656882548408341)
 	317836855, -- Fade PayPal (1232071924599881869)
+	3229011081, -- Fade Alt
 }
 
 local Blacklisted = {
