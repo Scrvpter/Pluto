@@ -300,6 +300,7 @@ local Premium = {
 	6884319169, -- Giveaway (830656882548408341)
 	317836855, -- Fade PayPal (1232071924599881869)
 	3229011081, -- Fade Alt
+	888160787, -- Nitro (1008669480601272340)
 }
 
 local Blacklisted = {
